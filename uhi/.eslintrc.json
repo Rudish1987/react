@@ -1,0 +1,51 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/errors",
+		"plugin:jsx-a11y/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:react/recommended"
+	],
+	"plugins": ["import", "jsx-a11y", "react-hooks", "react"],
+	"rules": {
+		"react/prop-types": 0,
+		"indent": ["error", "tab"],
+		"quotes": ["error", "single"],
+		"no-multiple-empty-lines": ["warn", {"max": 2, "maxEOF": 0}],
+		"no-trailing-spaces": [
+			"error",
+			{"skipBlankLines": true, "ignoreComments": true}
+		],
+		"no-duplicate-imports": "warn",
+		"linebreak-style": ["warn", "windows"],
+		"react/jsx-uses-react": "error",   
+		"react/jsx-uses-vars": "error",
+		"react/no-unescaped-entities": 0,
+		"react-hooks/exhaustive-deps": 0,
+		"no-unused-vars": ["warn", { "varsIgnorePattern": "carouselState"}]
+
+	},	
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true,
+		"jest": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"overrides": [
+		{
+			"files": ["**/*.test.js", "**/*.test.jsx"]
+		}
+	]
+}

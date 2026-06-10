@@ -1,0 +1,57 @@
+.groundservice-paper {
+    padding: 16px;
+    margin-bottom: 4px;
+    flex-grow: 1;
+    background: #ededed !important;
+    align-items: center;
+}
+.package-title{
+    font-size: 12px !important;
+    font-weight: 700!important;
+}
+.package-details {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.additional-details {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rate-type {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.close-button {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 24px;
+}
+.close-button-ar {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 24px;
+}
+.currencyText{
+    padding-left: 0px!important;
+    font-size: 16px!important;
+}
+.currency-Text{
+    padding-left: 0px!important;
+    font-size: 16px!important;
+    position: relative;
+    top: 28px;
+}
+.groundserice-pack-rtl{
+    direction: initial!important;
+    display: inline-flex!important;
+}
+.packagedetailsContnt {
+    font-size: 12px !important;
+    font-family: Montserrat!important;
+    font-weight: 400!important;
+    width:700px!important;
+}

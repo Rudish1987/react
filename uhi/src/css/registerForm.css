@@ -1,0 +1,17 @@
+.muiltr-f78e6h-MuiFormHelperText-root, .errorMsg {
+    color: #dc140a!important;
+    font-family: Montserrat!important;
+    margin: 0px !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+}
+.validation-cls > p {   
+    margin: 0px !important;
+    color: #dc140a!important;
+    font-family: Montserrat!important;
+    font-weight: 500!important;
+    font-size: 10px!important;
+}
+.forgotPasswordalign{
+    margin-bottom: 10px !important;
+}

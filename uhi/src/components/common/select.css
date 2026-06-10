@@ -1,0 +1,11 @@
+.muiltr-1pzpnzh-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+    background-color: #eee!important;
+}
+
+.muiltr-e1cp6w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: #3b3b3b!important;    
+}
+.muiltr-e1cp6w-MuiButtonBase-root-MuiCheckbox-root:hover {
+    background-color: unset!important;
+}
+

@@ -1,0 +1,177 @@
+@import "../../variable";
+
+@mixin paddingLeftZero {
+  padding-left: 0 !important;
+}
+
+@mixin paddingRightZero {
+  padding-right: 0 !important;
+}
+
+@mixin paddingTopZero {
+  padding-top: 0 !important;
+}
+
+@mixin paddingBottomZero {
+  padding-bottom: 0 !important;
+}
+
+.padding-left-0 {
+  @include paddingLeftZero();
+}
+
+.padding-right-0 {
+  @include paddingRightZero();
+}
+
+.padding-top-0 {
+  @include paddingTopZero();
+}
+
+.padding-bottom-0 {
+  @include paddingBottomZero();
+}
+
+.landingResolveSection {
+  background-color: $grey-scale-100;
+  padding-bottom: 48px;
+
+  @include md() {
+    margin-top: 70px !important;
+  }
+
+  @include lg() {
+    margin-top: 70px !important;
+  }
+
+  @include xl() {
+    margin-top: 70px !important;
+  }
+}
+
+.resolveText {
+  @include xs() {
+    padding-top: 24px !important;
+    padding-bottom: 48px !important;
+  }
+
+  @include sm() {
+    padding-top: 24px !important;
+    padding-bottom: 48px !important;
+  }
+
+  @include md() {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  @include lg() {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  @include xl() {
+    padding-top: 80px !important;
+    padding-bottom: 16px !important;
+  }
+}
+
+.youSign {
+  color: #DC140A;
+}
+
+.landingResolve {
+  max-width: 1200px;
+  @include paddingTopZero();
+  @include paddingRightZero();
+  @include paddingBottomZero();
+  @include paddingLeftZero();
+
+  @include xs() {
+    max-width: inherit !important;
+    margin: 0px 20px !important;
+  }
+
+  @include sm() {
+    max-width: inherit !important;
+    margin: 0px 24px !important;
+  }
+
+  @include md() {
+    max-width: inherit !important;
+    margin: 0px 32px !important;
+  }
+
+  @include lg() {
+    max-width: inherit !important;
+    margin: 0px 80px !important;
+  }
+}
+
+.resolveLgImage {
+  margin-top: -64px;
+  margin-left: 90px;
+}
+
+.resolveMdImage {  
+  flex-shrink: 0;
+  position: absolute;
+  margin-top: -64px;
+  margin-left: 50px;
+}
+
+.resolveHeader {
+  padding: 16px !important
+}
+
+.resolveContent {
+  padding-bottom: 8px !important;
+  text-align: justify;
+}
+
+.brandingCurve {
+  position: absolute;
+  left: calc(54% - 1435.31px + 0px);
+  top: -1949px;
+  max-width: none;
+  transform: translateY(530px); 
+}
+.brandingCurvear {
+  position: absolute;
+  left: calc(48% - 1435.31px + 0px);
+  top: -1397px;
+  max-width: none;
+  transform: translateY(530px);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.XsbrandingCurve {
+  position: absolute;
+  left: -213px;
+  top: -607px;
+  max-width: none;
+}
+.XsbrandingCurvear {
+  position: absolute;
+  left: -144px;
+  top: -625px;
+  max-width: none;
+  transform: scaleX(-1);
+}
+
+.smbrandingCurve {
+  position: absolute;
+  left: -213px;
+  top: -607px;
+  max-width: none;  
+}
+.smbrandingCurvear {
+  position: absolute;
+  left: -929px;
+  top: -1305px;
+  max-width: none;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+

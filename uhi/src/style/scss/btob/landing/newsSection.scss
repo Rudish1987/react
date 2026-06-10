@@ -1,0 +1,92 @@
+.carosel-img {
+	height: 300px !important;
+	border:1px solid #bdbdbd;
+	border-radius: 8px;
+	padding: 4px;
+    width:100%;
+    overflow: hidden;
+}
+
+.slideContent-text {
+	padding: 16px 0px 32px 0px !important;
+	margin-left: 32px !important;
+	margin-right: 32px !important;
+	//width: 100% !important;
+	position: fixed;
+	bottom: 0px;
+    @include sm() {
+        margin-left: 20px !important;
+	    margin-right: 20px !important;
+    }
+    @include xs() {
+        margin-left: 20px !important;
+	    margin-right: 20px !important;
+    }
+}
+
+.newssection-heading {
+	height: 52px !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+	padding-top: 8px !important;
+	font-size: 14px !important;
+}
+
+.react-multiple-carousel__arrow {
+	background: $primary-main-color;
+}
+
+.react-multiple-carousel__arrow--right {
+	right: calc(0% + 1px) !important
+}
+
+.react-multiple-carousel__arrow--left {
+	left: calc(0% + 1px)!important;
+}
+
+.react-multiple-carousel__arrow {
+	background: $primary-main-color
+}
+
+.carousel-container,
+.carousel-container-text {
+    max-width: 100% !important;
+
+	@include lg() {
+		max-width: 90% !important;
+	}
+	@include md() {
+		max-width: 95% !important;
+	}
+	@include sm() {
+		max-width: 93% !important;
+	}
+	@include xs() {
+		max-width: 92% !important;
+	}
+	@include xxs() {
+		max-width: 90% !important;
+	}
+}
+
+.carousel-item {
+    padding: 16px;
+}
+
+.carouselIcon {
+    position: absolute;
+    top: 45%;
+    background: $primary-main-color;
+    color: $grey-scale-white;
+    font-size: $desktop-font-size-h3;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.carouselLeftIcon {
+    left: 0px !important;
+}
+
+.carouselRightIcon {
+    right: 0px !important;
+}

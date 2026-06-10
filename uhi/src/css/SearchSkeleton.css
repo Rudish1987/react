@@ -1,0 +1,341 @@
+.noPadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.summarybg {
+    background-color: #F5F5F5;
+    padding: 0px;
+}
+
+.resultsbg {
+    padding: 20px;
+    background-color: white;
+}
+
+.marginTop {
+    margin-top: 25px;
+}
+
+.summaryLeft {
+    display: flex;
+}
+
+.packageAvatar {
+    width: 22px;
+    height: 22px !important;
+   
+}
+
+.rectangleskeleton-1 {
+    width: 83px;
+    height: 22px !important;
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+}
+
+.rectangleskeleton-2 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    min-width: 83px !important;
+    height: 8px !important;
+}
+
+.rectangleskeleton-3 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    width: 83px;
+    height: 8px !important;
+}
+
+.detailsSection {
+    background-color: #fff;
+    padding-left: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #EEEEEE;
+    margin-left: 0px !important;
+    margin-top: -9px;
+}
+
+.summaryTop {
+    border-radius: 22px;
+    margin-right: 24px;
+    min-width: 83px;
+    height: 22px !important;
+}
+
+.summaryBottom {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+}
+
+.resultSelectsec {
+    position: relative;
+    bottom: 30px;
+}
+
+.results-rect-1 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 24px !important;
+    min-width: 534px;
+}
+
+.results-rect-2 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 24px !important;
+    min-width: 275px;
+}
+
+.results-rect-3 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 24px !important;
+    min-width: 130px;
+}
+
+.results-rect-4 {
+    border-radius: 8px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    min-width: 82px;
+}
+
+.results-rect-4-ar {
+    border-radius: 8px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    min-width: 82px;
+    position: relative;
+    right: 37px;
+}
+
+.results-rect-5 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 17px !important;
+    min-width: 256px;
+}
+
+.results-rect-6 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    min-width: 214px;
+    margin-left: 18px;
+}
+
+.results-rect-7 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    min-width: 39px;
+}
+
+.results-rect-8 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 27px !important;
+    min-width: 116px;
+}
+
+.results-rect-9 {
+    border-radius: 22px;
+    margin-right: 43px;
+    margin-bottom: 3px;
+    height: 14px !important;
+    width: 175px;
+}
+
+.results-rect-10 {
+    border-radius: 22px;
+    margin-right: 46px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    min-width: 80px;
+}
+
+.results-rect-11 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 12px !important;
+    width: 114px !important;
+}
+
+.selectButton {
+    border-radius: 8px;
+    margin-right:87px;
+    margin-bottom: 3px;
+    height: 36px !important;
+    width: 80px;
+}
+
+.results-rect-12 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 22px !important;
+    width: 102px;
+}
+
+.results-rect-13 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 8px !important;
+    width: 102px;
+}
+
+.resultsRow {
+    background-color: #bdbdbd;
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    max-width: 100%;
+    height: 72px !important;
+}
+
+.resultsRow-inner {
+    position: relative;
+    bottom: 63px;
+    left: 15px;
+}
+
+.results-img {
+    border-radius: 8px;
+    margin-bottom: 3px;
+    height: 200px !important;
+    min-width: 200px;
+}
+
+.resultsinner-img {
+    position: relative;
+    bottom: 255px;
+}
+
+.diamondIcon {
+    color: #e6e6e6;
+}
+
+.width-600 {
+    min-width: 600px
+}
+
+.marginTop-30 {
+    margin-top: 30px !important;
+}
+
+.resultinner-img {
+    position: relative;
+    top: -68px;
+}
+
+.rectangleskeleton-3 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 8px !important;
+    width: 37px !important;
+}
+
+.rectangleskeleton-4 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    height: 8px !important;
+    min-width: 67px !important;
+}
+
+.rectangleskeleton-5 {
+    border-radius: 22px;
+    margin-right: 24px;
+    min-width: 105px !important;
+    height: 22px !important;
+}
+
+.rectangleskeleton-6 {
+    border-radius: 22px;
+    margin-right: 24px;
+    margin-bottom: 3px;
+    min-width: 101px !important;
+    height: 8px !important;
+}
+
+.rectangleskeleton-7 {
+    border-radius: 22px;
+    margin-right: 24px;
+    min-width: 149px !important;
+    height: 22px !important;
+}
+
+.rectangleskeleton-8 {
+    border-radius: 22px;
+    /* margin-right: 24px; */
+    min-width: 134px !important;
+    height: 34px !important;
+}
+
+.packageSection {
+    background-color: #fff;
+    padding-right: 6;
+    padding-top: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: end;
+}
+
+.resultRowRight {
+    position: relative;
+    left:12%!important;
+}
+.resultRowRights{
+    position: relative;
+    left:8%!important;
+}
+
+.resultRowsec {
+    padding: 16px;
+    margin: auto;
+    flex-grow: 1;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+}
+
+.collecctionImage {
+    position: relative;
+    top: -68px;
+    left: 10px;
+}
+
+.diamondImage {
+    position: relative;
+    bottom: 255px;
+    left: 10px;
+}
+.alignRight{
+    text-align: end!important;
+}
+
+.AlignmentLeft{
+    padding-left: 10px;
+}
+
+.alignment-left{
+    padding-left:10px;
+}

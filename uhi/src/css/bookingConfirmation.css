@@ -1,0 +1,389 @@
+.bookingContainer {
+    padding: 16px !important;
+    background-color: white;
+}
+
+.width-84 {
+    width: 84%;
+}
+
+.accordion-block {
+    border: 1px solid;
+    border-color: #E0E0E0;
+    margin-top: 20px !important;
+    border-radius: 4px !important;
+}
+
+.nopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.accordion-blocks {
+    border: 1px solid;
+    border-color: #E0E0E0;
+    margin-top: 20px !important;
+}
+
+.accordion-sum {
+    width: 100%;
+    background-color: #F5F5F5 !important;
+}
+
+.grey-patch {
+    background-color: #F5F5F5 !important;
+    border: 1px solid;
+    border-color: #E0E0E0;
+    margin-top: 20px !important;
+    border-radius: 4px;
+    padding: 0px 5px;
+}
+
+.checkcircle {
+    color: #00B760;
+    position: relative;
+    top: 6px;    
+}
+
+.bookingHeader {
+    padding-top: 8px;
+    font-family: Montserrat;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    padding-bottom: 5px;
+}
+
+.report-visa {
+    padding-right: 12px;
+    position: relative;
+    top: -3px;
+}
+
+.booking-InnerSec {
+    background-color: white;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+.bookinginnerText {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat';
+}
+
+.statusText {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat';
+}
+
+.textRight {
+    text-align: right;
+}
+
+.marleft {
+    margin-left: 12px;
+}
+
+.pos-rel {
+    position: relative;
+    left: 28%;
+}
+
+.greyButtons {
+    color: #212121 !important;
+    width: 134px !important;
+    border: 1px solid #212121 !important;
+    padding: 10px;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat';
+    float: left;
+}
+
+.greyButtons:hover {
+    background-color: unset !important;
+}
+
+.pull-top-24 {
+    padding-top: 24px;
+}
+
+.redborderButton {
+    width: 100%;
+}
+
+.visablock {
+    border: 1px solid #0288D1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.visablock2 {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bookinginnerpara {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: 'Montserrat';
+}
+
+.ReportProblemIcon {
+    color: #0288D1;
+}
+
+.CancelIcon {
+    color: #D32F2F;
+    position: relative;
+    top: 6px;   
+}
+
+.InfoIcon {
+    color: #757575;
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+
+.accordion-text {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.visa-bubble {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.ReportProblem {
+    color: #0288D1;
+    position: relative;
+    top: 5px;
+}
+
+.marRight-23 {
+    margin-left: -42px;
+}
+
+.marTop-20 {
+    margin-top: 20px;
+}
+
+.hotelavater {
+    color: #00B760 !important;
+    border: 2px solid #00B760 !important;
+    background-color: #FFFFFF !important;
+    width: 32px !important;
+    height: 31px !important;
+}
+
+.textHeading {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-transform: capitalize;
+}
+
+.subText {
+    margin-bottom: 16px !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #424242 !important;
+}
+
+.innerText {
+    margin-bottom: 16px !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #424242 !important;
+}
+
+.redtext {
+    color: rgb(220, 20, 10);
+    position: relative;
+    top: 2px;
+}
+
+/* .currencyText{
+    font-size: 12px!important;
+    position: relative;
+    top: 26px;
+    font-weight: 600!important;
+} */
+.totalText {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-left: 36px !important;
+}
+
+.bookingDetailshr {
+    margin-bottom: 16px !important;
+    border-bottom: 2px solid #E0E0E0 !important;
+}
+
+.invoice-page {
+    width: 90%;
+    background-color: #fff;
+    margin: 20px auto;
+    letter-spacing: normal !important;
+}
+
+.MuiModal-root {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.invoice-container {
+    padding: 40px 80px
+}
+
+.invoice-title {
+    text-align: center;
+    color: #1A2028 !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    padding: 40px 0px;
+}
+
+.invoice-description {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+.invoice-headings {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.invoice-info {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding-left: 108px !important;
+}
+
+
+.invoice-topheadings {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+
+.invoice-topinfo {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.invoice-rtl-align {
+    position: relative;
+    left: 150px;
+}
+
+.invoice-tbl {
+    width: 100%;
+    background-color: #F5F5F5 !important;
+    margin-top: 20px !important;
+}
+
+.invoice-tbl-title {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-family: 'Montserrat' !important;
+}
+
+.invoice-tb-spc {
+    padding: 8px 16px 16px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 24px !important;
+}
+
+.margin-top-22 {
+    margin-top: 10px !important;
+}
+
+.package-currenct {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/* .invoice-row {
+    align-items: center;
+    margin-top: 16px !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+}
+
+.invoice-border {
+    margin-bottom: 16px !important;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.invoice-tble-cell {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-transform: capitalize !important;
+    font-family: 'Montserrat' !important;
+} */
+
+.nopad-lft-rt {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.alignCenter {
+    align-items: center !important;
+}
+
+.report-icon-position {
+    position: relative;
+    top: 5px;
+}
+
+/* .invoice-Currtxt{
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    font-family: 'Montserrat' !important;
+}
+.invoice-Currt{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-family: 'Montserrat' !important;
+} */
+
+.discaimer-txt{
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        font-family: 'Montserrat';
+        color: #d32f2f !important;
+}
+.visa-spc{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+.vocherwidth-60{
+    max-width: 60%!important;
+}
+
+.Montserratfont{
+    font-family:'Montserrat'!important;
+}

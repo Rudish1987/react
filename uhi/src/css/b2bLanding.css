@@ -1,0 +1,47 @@
+.b2bwrapper {
+	height: 100vh;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.b2bHero{
+	padding: 11rem 3rem!important;
+    color: #fff;
+    position: relative;
+    bottom: 95px;
+}
+.b2bLoginbox{
+	background: rgba(255, 255, 255, 0.8);
+	 padding-top: 30px;
+	 padding-bottom: 20px;
+}
+/* .b2bpadRight32{
+	padding-right: 32px;
+} */
+.b2bLoginlinks{
+	position:relative;
+	top:20px;
+}
+
+.b2bUHI-content {    
+    font-weight: 400!important;
+    color: #514D59;
+    padding-top: 8px!important;
+    /* font-size: 16px!important; */
+    line-height: 20px!important;
+}
+.cardinline{
+	display: inline-block;
+	box-shadow: none!important;
+	border-radius: 0;
+}
+.caroselText{
+	background: #ffffff;
+    margin: 10px 124px;
+    width: 980px;
+    padding: 34px 34px;
+}
+.bytextpos{
+	position: relative;
+	top:28px;
+	font-size: 14px!important;
+}

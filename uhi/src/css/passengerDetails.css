@@ -1,0 +1,26 @@
+.passengerHeading{
+    font-size: 20px;
+    font-weight: 600;
+    color:#282E36;
+}
+.adult{
+    font-weight: 600 ;
+    font-size: 20px;
+    padding-left: 2;
+    padding-top: 1;
+    padding-right: 2;
+    padding-bottom: 2;
+}
+/* .passengerGrid{
+    min-height: 70px !important;
+} */
+.pad-botm-73{
+    height: 78px;
+}
+.pad-botm-85{
+    height: 85px;
+}
+.pos-relt{
+    position: relative;
+    bottom:16px;
+}

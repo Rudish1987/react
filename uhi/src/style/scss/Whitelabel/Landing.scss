@@ -1,0 +1,17 @@
+@import '../variables';
+
+body {
+    
+    @include xs {
+        margin: 0px 20px 0px 20px;
+    }
+    @include sm {
+        margin: 0px 24px 0px 24px;
+    }
+    @include md {
+        margin: 0px 32px 0px 32px;
+    }
+    @include lg {
+        margin: 0px 80px 0px 80px;
+    }   
+}

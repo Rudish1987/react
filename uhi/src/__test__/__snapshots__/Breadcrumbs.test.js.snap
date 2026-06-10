@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapshot for About Us 1`] = `
+<div
+  className="css-1p5q5e5-MuiStack-root"
+>
+  <nav
+    aria-label="breadcrumb"
+    className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+  >
+    <ol
+      className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+    >
+      <li
+        className="MuiBreadcrumbs-li"
+      >
+        <a
+          className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-1x2ef2v-MuiTypography-root-MuiLink-root"
+          data-testid="homeLink"
+          href="/"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        aria-hidden={true}
+        className="MuiBreadcrumbs-separator css-1wuw8dw-MuiBreadcrumbs-separator"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+          data-testid="NavigateNextIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+          />
+        </svg>
+      </li>
+      <li
+        className="MuiBreadcrumbs-li"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-i7oajg-MuiTypography-root"
+          data-testid="breadcrumbText"
+        >
+          About Us
+        </p>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

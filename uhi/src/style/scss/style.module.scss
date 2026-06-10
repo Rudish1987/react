@@ -1,0 +1,55 @@
+@import "./variable.scss";
+
+
+// the :export directive is the magic sauce for webpack
+:export {    
+    primaryMainColor: $primary-main-color;
+    primaryDarkColor: $primary-dark-color;
+    primaryLightColor: $primary-light-color;
+
+    // success color
+    successMainColor: $success-main-color;
+    successDarkColor: $success-dark-color;
+    successLightColor: $success-light-color;
+    successShade4: $success-shade-4;
+
+    //grey scales
+    greyScale100: $grey-scale-100;
+    greyScale200: $grey-scale-200;
+    greyScale300: $grey-scale-300;
+    greyScale400: $grey-scale-400;
+    greyScale500: $grey-scale-500;
+    greyScale600: $grey-scale-600;
+    greyScale700: $grey-scale-700;
+    greyScale800: $grey-scale-800;
+    greyScale900: $grey-scale-900;
+    greyScaleWhite: $grey-scale-white;
+    greyScaleBlack: $grey-scale-black;
+
+    //secondary color
+    secondaryMainColor: $secondary-main-color;
+    secondaryDarkColor: $secondary-dark-color;
+    secondaryLightColor: $secondary-light-color;
+    
+    // info color
+    infoMainColor: $info-main-color;
+    infoDarkColor: $info-dark-color;
+    infoLightColor: $info-light-color;
+    infoShade4: $info-shade-4;
+    info-shade-50-p:$info-shade-50-p;
+
+    //error colors
+    errorMainColor:$error-main-color;
+    errorDarkColor:$error-dark-color;
+    errorLightColor:$error-light-color;
+    errorShade4: $error-shade-4;
+
+    //warning colors
+    warningMainColor: $warning-main-color;
+    warningDarkColor: $warning-dark-color;
+    warningLightColor: $warning-light-color;
+    warningShade4: $warning-shade-4;
+
+    buttonLargeHeight: $button-large-height;
+    smMinWidth: $screen-sm-min;
+}

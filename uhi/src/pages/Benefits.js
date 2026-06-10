@@ -1,0 +1,18 @@
+import React from 'react';
+// components
+import StaticContent from '../components/StaticContent';
+
+// ----------------------------------------------------------------------
+const benefits = {
+	bannerTitle: 'Benefits',
+	image: 'https://www.umrahholidays.com/_laravel/public/ci/images/umrah/makkah.jpg',
+	title: 'Benefits',
+	content: 'Benefits, Umrah Holidays International is part of the WebBeds Group; The world’s fastest-growing and second-largest business to business (B2B) accommodation provider to the travel industry.  Umrah Holidays International (UHI) provides a digital solution to simplify the Umrah journey and the booking process including visas, hotels, meet and greet, transfers and sightseeing in the holy land of The Kingdom of Saudi Arabia (KSA). The visa integration process has been developed in accordance with the KSA Ministry of Foreign Affairs requirements and enables UHI to offer simple and quick e-Services to facilitate the planning, processing and issuance of visas for pilgrims in line with the KSA’s historic role in serving Muslims and Islam.  Leveraging on WebBeds global distribution network and strong partnerships with KSA hotels, UHI undertakes to promote religious travel to Saudi Arabia to Travel Agencies worldwide. Our partners will also benefit from a comprehensive range of leisure inventory and packages bookable via online and offline channels, pre or post the spiritual visit to the kingdom. UHI’s simple and user-friendly trading environment supports the KSA’s vision and ambition to welcome 30 million religious’ tourists by the year 2030. As part of WebBeds, UHI benefits from over 40 years’ experience in distributing travel products to the global B2B travel industry along with the backing and financial support of the Webjet Group of companies that has a global annual turnover in excess of AUD 3.5Billion. Our staff of over 1,800 travel professionals are dedicated to distributing hotel content to 20,000+ travel companies globally whilst providing an unrivalled level of service that is amongst the best in the business. HOW WE ARE DIFFERENT UHI is the first global B2B company to provide a unique Umrah experience to partner travel agencies worldwide. We enjoy strong partnerships with local KSA operators and work directly with more than 600 hotels in Makkah, Medina, Jeddah and other nearby cities. Combining the local knowledge, global distribution network, our competitive product, multilingual team, commitment to customer satisfaction, user-friendly technology and the quick and simple visa solution, it’s easy to see why Umrah Holidays International should be the partner of choice for the religious travel trade. OUR TECHNOLOGY Our platform is intuitive and easy to use. It is built with the intention of automating and simplifying the booking process in order to save time and remove the stress involved in creating detailed Umrah itineraries in compliance with the applicable rules and regulations. We provide online Umrah packages, stand-alone accommodation and services, leisure breaks in and around Saudi Arabia, for both individual travelers and groups. With all products and services available in a single environment, our partner travel agents only need to remember one brand and one website, process one set of invoices and communicate with one customer care team. Umrah Holidays International- a pioneer in providing online religious travel services in the B2B space!'
+}
+// ----------------------------------------------------------------------
+
+export default function Benefits() {
+	return (
+		<StaticContent data={benefits} pageTitle='Benefits'></StaticContent>
+	);
+}

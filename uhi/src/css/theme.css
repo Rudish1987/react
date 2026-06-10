@@ -1,0 +1,105 @@
+.buttonLarge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 56px !important;
+    background: #DC140A !important;
+    /* font-size: 16px !important; */
+    font-weight: 600 !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12) !important;
+    border-radius: 4px !important;
+    text-transform: uppercase !important;
+}
+
+.buttonLarge:hover {
+    background: #BA0D04 !important;
+}
+
+.buttonMedium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 40px !important;
+    background: #DC140A !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+    text-transform: uppercase !important;
+}
+
+.h3-headings {
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    color: #212121 !important;
+    margin-bottom: 24px !important;
+    font-family: Montserrat, sans-serif !important;
+}
+.padTop-32{
+    padding-top: 32px!important;
+}
+.padTop-8{
+    padding-top: 8px!important;
+}
+.MuiInputLabel-root {
+    color: #757575!important;
+    font-size: 14px!important;
+    font-weight: 400 !important;
+}
+.MuiOutlinedInput-input {
+    color: #3B3B3B!important;
+    font-size: 16px!important;
+    font-weight: 400 !important;   
+}
+.footerLogopos{
+   padding-left: 33px;
+}
+
+
+.muiltr-e7xoal-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+   color: #2E7D32!important;    
+    
+}
+.muiltr-e7xoal-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #97BE99!important;
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #3b3b3b!important;
+}
+.footer-spac {
+    position: relative;   
+    color: #fff;
+    font-weight: 400 !important;
+    top: 43px;
+}
+
+.twitter-icon {
+    margin-left: 8px;
+    margin-bottom: -5px;
+    color: #fff;
+}
+
+.mail-icon {
+    width: 20px !important;
+    height: 16px !important;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+
+}
+
+.call-icon {
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+.theme-font{
+    font-family: Montserrat, sans-serif !important;
+    font-size: 14px!important;
+    font-weight: 600 !important; 
+}

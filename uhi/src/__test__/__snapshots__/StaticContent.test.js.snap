@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a snapshot for Static Content 1`] = `
+<div
+  className="MuiBox-root css-old1by"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthFalse css-15o1ixz-MuiContainer-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1m9qys-MuiPaper-root"
+    >
+      <div
+        className="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+      >
+        <h2
+          className="MuiTypography-root MuiTypography-h2 css-k78zhm-MuiTypography-root"
+          data-testid="dataBannerTitle"
+        >
+          Benefits
+        </h2>
+      </div>
+    </div>
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-u8mvna-MuiPaper-root"
+      >
+        <div
+          className="css-1p5q5e5-MuiStack-root"
+        >
+          <nav
+            aria-label="breadcrumb"
+            className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+          >
+            <ol
+              className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+            >
+              <li
+                className="MuiBreadcrumbs-li"
+              >
+                <a
+                  className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-hblo5-MuiTypography-root-MuiLink-root"
+                  data-testid="homeLink"
+                  href="/"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                >
+                  Home
+                </a>
+              </li>
+              <li
+                aria-hidden={true}
+                className="MuiBreadcrumbs-separator css-1wuw8dw-MuiBreadcrumbs-separator"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+                  data-testid="NavigateNextIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </li>
+              <li
+                className="MuiBreadcrumbs-li"
+              >
+                <p
+                  className="MuiTypography-root MuiTypography-body1 css-i7oajg-MuiTypography-root"
+                  data-testid="breadcrumbText"
+                >
+                  Benefits
+                </p>
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <h2
+          className="MuiTypography-root MuiTypography-h2 css-1jk9z5k-MuiTypography-root"
+          data-testid="dataTitle"
+        >
+          Benefits
+        </h2>
+        <div
+          className="MuiGrid-root css-vj1n65-MuiGrid-root"
+        >
+          <div
+            className="MuiBox-root css-0"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "content",
+              }
+            }
+            data-testid="dataContent"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-yj6hpe-MuiPaper-root"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-[object Object] css-10o28iq-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3 css-1ixavzc-MuiGrid-root"
+        >
+          <div
+            className="css-1lz550l-MuiStack-root"
+          >
+            <div
+              className="css-zvmphy-MuiStack-root"
+            >
+              <img
+                className="MuiBox-root css-1ssbn0c"
+                src="/static/images/umrah-logo_red_small.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-17tgvrc-MuiGrid-root"
+        >
+          <div
+            className="css-1vvr7p1-MuiStack-root"
+          >
+            <div
+              className="css-nen11g-MuiStack-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+              >
+                Services
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+              >
+                Whitelabel
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+              >
+                Marketing
+              </p>
+            </div>
+            <div
+              className="css-nen11g-MuiStack-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+                onClick={[Function]}
+              >
+                About
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+                onClick={[Function]}
+              >
+                Our Story
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 css-198vyh4-MuiTypography-root"
+                onClick={[Function]}
+              >
+                Benefits
+              </p>
+            </div>
+            <div
+              className="css-nen11g-MuiStack-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-1rc0eua-MuiTypography-root"
+              >
+                Follow Us
+              </p>
+              <div
+                className="MuiBox-root css-gg4vpm"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-e11mle-MuiSvgIcon-root"
+                  data-testid="FacebookIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-e11mle-MuiSvgIcon-root"
+                  data-testid="TwitterIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-e11mle-MuiSvgIcon-root"
+                  data-testid="InstagramIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3 css-1ixavzc-MuiGrid-root"
+        >
+          <div
+            className="css-1lz550l-MuiStack-root"
+          >
+            <div
+              className="css-nen11g-MuiStack-root"
+            >
+              <h6
+                className="MuiTypography-root MuiTypography-h6 css-kee7tf-MuiTypography-root"
+              >
+                Ready to get started ?
+              </h6>
+              <button
+                className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+                disabled={false}
+                onBlur={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                type="button"
+              >
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root css-hd891u"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 css-171x2m5-MuiTypography-root"
+      >
+        Copyright © 2022. UmrahHolidays International. All rights reserved.
+      </p>
+    </div>
+  </div>
+</div>
+`;

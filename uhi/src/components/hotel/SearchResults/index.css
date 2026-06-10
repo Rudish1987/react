@@ -1,0 +1,36 @@
+@media only screen and (min-width: 600px) {
+
+    .image-gallery-swipe .image-gallery-image,
+    .image-gallery-image {
+        max-width: 500px;
+        height: 400px;
+        width: 400px;
+        /* object-fit: cover; */
+        object-fit: scale-down;
+    }
+
+    .image-gallery-left-nav .image-gallery-svg {
+        position: relative;
+        right: 187px;
+        height: 40px;
+    }
+
+    .image-gallery-right-nav .image-gallery-svg {
+        position: absolute;
+        top: 34px;
+        left: 125px;
+        height: 40px;
+    }
+
+    .image-gallery-content .image-gallery-bullets {
+        bottom: -25px;
+    }
+
+    .mr-left-100 {
+        margin-left: 100% !important;
+    }
+
+    .color-white {
+        color: white;
+    }
+}

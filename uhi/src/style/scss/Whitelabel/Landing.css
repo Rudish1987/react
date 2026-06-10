@@ -1,0 +1,47 @@
+/***************************************
+*                             Breakpoint
+***************************************/
+/***************************************
+*                         Colors Palette
+***************************************/
+/***************************************
+*                                 Button
+***************************************/
+/*
+<<<<<<< HEAD
+*Break points veriables
+*/
+/*
+* Create SCSS veriable for resolve section
+*/
+:export {
+  smMinWidth: 600px;
+}
+
+/*
+*Mixins
+*/
+@media (min-width: 600px) {
+  body {
+    margin: 0px 20px 0px 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    margin: 0px 24px 0px 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin: 0px 32px 0px 32px;
+  }
+}
+
+@media (min-width: 1535px) {
+  body {
+    margin: 0px 80px 0px 80px;
+  }
+}
+/*# sourceMappingURL=Landing.css.map */

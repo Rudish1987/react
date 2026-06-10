@@ -1,0 +1,44 @@
+@mixin displayMargin {
+    padding: 0px 108px !important;
+}
+
+.loginFormSection{
+    @include xs(){
+        display: flex !important;
+        justify-content: center !important;
+        bottom{
+            padding: 20px;
+        }
+   }
+}
+.loginFormCenter{
+    @include sm(){
+         display: flex !important;
+         justify-content: center !important;
+    }
+}
+.login-box {
+    @include sm() {
+        padding-top: 24px !important;
+        padding-bottom: 8px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        margin-top: 0px !important;
+    }
+    @include xs(){
+        padding-top: 0px !important;
+        padding-bottom: 80px !important;
+    }
+}
+
+.form-margin{
+    @include lg() {
+        @include displayMargin();
+    }
+    @include xl() {
+        @include displayMargin();
+    }
+    @include sm(){
+        width: 453px;
+   }
+}

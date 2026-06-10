@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  sample:
+    container_name: uhi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:3000

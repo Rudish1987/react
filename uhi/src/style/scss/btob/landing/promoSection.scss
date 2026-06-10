@@ -1,0 +1,74 @@
+.ksaImage{
+    //margin-left: 108px;
+    width: 247px;
+    margin: 0 auto !important;
+    height: 376px !important;
+    @include lg(){
+        position: absolute;
+    }
+    @include md() {
+        float: right;
+        height: 366px !important;
+        position: absolute;
+    }
+    @include sm() {
+        height: 254px !important;
+        width: 171.45px;
+        position: absolute;
+    }
+    @include xs() {
+        height: 177.92px !important;
+        width: 122.01px;
+    }
+    
+}
+
+.PromoContentSection {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+    @include xl() {
+		padding-left: 40px !important;
+        height: 376px;
+    }
+    @include lg() {
+		padding-left: 40px !important;
+        height: 376px;
+    }
+    @include md() {
+        height: 418px;
+    }
+    @include sm() {
+        //height: 442px;
+        gap: 24px;
+    }
+    @include xs() {
+        //height: 500px;
+        margin-top: 20px !important;
+        gap: 10px;
+    }
+}
+
+.promoGrid{
+    padding: 0 108px;
+    @include md() {
+        padding: 0px;
+    }
+    @include sm() {
+        padding: 0px;
+    }
+    @include xs() {
+        padding: 0px;
+    }
+}
+
+.joinUsButton {
+    margin: 0 30px !important;
+    @include xs() {
+        margin: 0px !important;
+        margin-top: 32px !important;
+        
+    }
+}

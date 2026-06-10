@@ -1,0 +1,179 @@
+@mixin paddingLeftZero {
+    padding-left: 0 !important;
+}
+
+@mixin paddingRightZero {
+    padding-right: 0 !important;
+}
+
+@mixin paddingTopZero {
+    padding-top: 0 !important;
+}
+
+@mixin paddingBottomZero {
+    padding-bottom: 0 !important;
+}
+
+.padding-left-0 {
+    @include paddingLeftZero();
+}
+
+.padding-right-0 {
+    @include paddingRightZero();
+}
+
+.padding-top-0 {
+    @include paddingTopZero();
+}
+
+.padding-bottom-0 {
+    @include paddingBottomZero();
+}
+
+.paddingTop20 {
+    padding-top: 20px !important;
+}
+
+.landingLogo {
+    max-width: 1200px;
+    @include paddingRightZero();
+    @include paddingLeftZero();
+    background: $grey-scale-white;
+    margin: 0 auto;
+
+    @include xs() {
+        max-width: inherit !important;
+        margin: 0px 20px !important;
+    }
+
+    @include sm() {
+        max-width: inherit !important;
+        margin: 0px 24px !important;
+    }
+
+    @include md() {
+        max-width: inherit !important;
+        margin: 0px 32px !important;
+    }
+
+    @include lg() {
+        max-width: inherit !important;
+        margin: 0px 80px !important;
+    }
+}
+
+.logoSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0px !important;
+
+    img {
+        width: 141px;
+        height: 58px;
+    }
+
+    div:nth-child(1) {
+        @include xs() {
+            align-items: center;
+            min-width: 100%;
+        }
+
+        @include sm() {
+            padding-left: 45px!important;
+            padding-right: 64px;
+            align-items:end;
+            min-width: 50%;
+        }
+    }
+
+    div:nth-child(2) {
+        @include xs() {
+            align-items: center;
+            min-width: 50%;
+            padding-top: 32px !important;
+        }
+
+        @include sm() {
+            padding-left: 64px !important;
+            min-width: 50%;
+        }
+    }
+
+    div:nth-child(3) {
+        @include xs() {
+            align-items: center;
+            min-width: 50%;
+            padding-top: 32px !important;
+        }
+
+        @include sm() {
+            align-items: center;
+            padding-top: 32px;
+            min-width: 33.3%;
+        }
+    }
+
+    div:nth-child(4) {
+        @include xs() {
+            align-items: center;
+            min-width: 50%;
+            padding-top: 32px !important;
+        }
+
+        @include sm() {
+            align-items: center;
+            padding-top: 32px;
+            min-width: 33.3%;
+        }
+    }
+
+    div:nth-child(5) {
+        @include xs() {
+            align-items: center;
+            min-width: 50%;
+            padding-top: 32px !important;
+        }
+
+        @include sm() {
+            align-items: center;
+            padding-top: 32px;
+            min-width: 33.3%;
+        }
+    }
+}
+
+.landingLogoSection{
+    @include xs() {
+        padding-top: 0px !important;
+        padding-bottom: 48px !important;
+    }
+    @include sm() {
+        padding-top: 64px !important;
+        padding-bottom: 64px!important;
+    }
+    @include md() {
+        padding-top: 64px !important;
+        padding-bottom: 64px!important;
+    }
+    @include lg() {
+        padding-top: 64px!important;
+        padding-bottom: 32px!important;
+    }
+    @include xl() {
+        padding-top: 80px !important;
+        padding-bottom: 32px!important;
+    }
+}
+.headerH5 {
+    font-size: $desktop-font-size-h5;
+}
+
+.greyWhite {
+    color: $grey-scale-white
+}
+
+.grey600 {
+    color: $grey-scale-600
+}

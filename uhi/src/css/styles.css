@@ -1,0 +1,192 @@
+.SearchForm {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 100%;
+    min-height: 250px;
+    padding: 2rem !important;
+    margin-top: 30px !important;
+    margin-left: 45px !important;
+}
+
+.landingContainer {
+    height: 100vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.landingBanner {
+    padding: 16px;
+    background: url("/src/Assets/banner_image_2_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px !important;
+    border: 1px solid red;
+}
+
+.bannerContent {
+    padding: 11rem 5rem !important;
+    color: #fff;
+}
+
+.logout-link {
+    font-weight: 400 !important;
+    justify-content: unset !important;
+    padding: 6px 21px !important;
+}
+
+.menu-popove-style{
+    overflow-y: hidden !important;
+}
+
+.myaccounttext {
+    font-weight: 700 !important;
+    line-height: 1.7142857142857142 !important;
+    font-size: 0.875rem !important;
+    text-transform: capitalize !important;
+    font-family: Montserrat, sans-serif !important;
+    min-width: 64px !important;
+    padding: 6px 8px !important;
+    color: #212121 !important;
+    border-radius: 4px !important;
+}
+
+.myaccountlist {
+    line-height: 1.5714285714285714 !important;
+    font-size: 0.875rem !important;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 400 !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.muiltr-11zwbe3-MuiPaper-root-MuiDialog-paper {
+    padding: 16px;
+}
+
+.summary-text {
+    /* display: flex !important; */
+    color: #3b3b3b !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 160% !important;
+    flex-wrap: wrap !important;
+    direction: ltr;
+}
+
+.myitenaryButton {
+    bottom: 5px;
+    font-weight: 600 !important;
+}
+
+.resullt-title {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+}
+
+.result-select {
+    box-shadow: unset !important;
+    width: 115px;
+    height: 40px;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-family: Montserrat, sans-serif !important;
+    margin-left: 8px !important;
+    text-transform: uppercase !important;
+    
+}
+
+.pad-botm-16 {
+    padding-bottom: 16px !important;
+}
+
+.result-h6 {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+}
+
+.result-policy {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    cursor: pointer;
+    display: inherit;
+    color: #3b3b3b !important;
+}
+
+.result-curr {
+    font-weight: 600 !important;
+    font-size: 30px !important;
+}
+
+.resutls-placehoder {
+    font-size: 14px !important;
+    width: 299px;
+    height: 36px;
+}
+
+
+.LocationIcon {
+    font-size: 24px !important;
+}
+
+.location-text {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    font-family: Montserrat, sans-serif !important;
+    line-height: 22px !important;
+    position: relative;
+    bottom: 7px;
+}
+
+.resultsPrice {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-family: Montserrat, sans-serif !important;
+}
+
+.nospacelelft {
+    padding-left: 0px !important;
+}
+
+.img-size{
+    width: 240px !important;
+    height: 240px !important;
+}
+
+.page-Header-text {    
+    font-family: Montserrat,sans-serif;
+    font-size: 22px !important;
+    font-weight: 600 !important;    
+    padding-top: 20px;
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+    padding-bottom: 20px !important;
+    font-weight: 600 !important;
+    background-color: white;
+}
+
+.content-display {
+    align-content: flex-end;
+}
+.loginpop-heading {
+    font-size: 24px!important;
+    font-weight: 600!important;
+}
+.loginfields{
+    border-radius: 4px;
+    margin-top: 15px!important;
+}
+.login-checkbox{
+    margin:15px 0px;
+}
+.addredcolor{
+    color: #dc140a;
+}

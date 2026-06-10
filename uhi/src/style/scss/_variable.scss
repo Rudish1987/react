@@ -1,0 +1,174 @@
+/***************************************
+*                             Breakpoint
+***************************************/
+
+// media aliases and breakpoints
+$screen-sm-min: 600px;
+$screen-md-min: 900px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 1536px;
+
+$screen-xxs-max: 375px;
+$screen-xs-max: 600px;
+$screen-sm-max: 899px;
+$screen-md-max: 1199px;
+$screen-lg-max: 1535px;
+$screen-xl-max: 5000px;
+
+$screen-up-xs-max: 600px;
+$screen-dwn-xs-min: 440px;
+$screen-up-sm-max: 430px;
+$screen-dwn-sm-min: 400px;
+
+
+// media devices
+@mixin xxs {
+  @media screen and (max-width: #{$screen-xxs-max}) {
+    @content;
+  }
+}
+@mixin xs {
+  @media screen and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: #{$screen-lg-min}) and (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media screen and (min-width: #{$screen-xl-min}) and (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}
+@mixin xsup {
+	@media screen and (min-width: #{$screen-dwn-xs-min}) and (max-width: #{$screen-up-xs-max}) {
+	  @content;
+	}
+  }
+
+  @mixin xsdwn {
+	@media screen and (min-width: #{$screen-dwn-sm-min}) and (max-width: #{$screen-up-sm-max}) {
+	  @content;
+	}
+  }
+
+/***************************************
+*                         Colors Palette
+***************************************/
+$font-family: Montserrat;
+// primary color
+$primary-main-color: #DC140A!important;
+$primary-dark-color: #BA0D04!important;
+$primary-light-color: #FFE1DF!important;
+
+// secondary color
+$secondary-main-color: #282E36!important;
+$secondary-dark-color: #000000!important;
+$secondary-light-color: #E0E0E0!important;
+
+// error color
+$error-main-color: #DC140A!important;
+$error-dark-color: #b22c26!important;
+$error-light-color: #FDCFD4!important;
+$error-shade-4: rgba(211, 47, 47, 0.04) !important;
+
+
+// info color
+$info-main-color: #00B6EE!important;
+$info-dark-color: #0078B7!important;
+$info-light-color: #D0F0FB!important;
+$info-shade-4   : rgba(2, 136, 209, 0.04)!important;
+$info-shade-50-p   : rgba(2, 136, 209, 0.50)!important;
+
+// success color
+$success-main-color: #01B45F!important;
+$success-dark-color: #00833D!important;
+$success-light-color: #B3EBCA!important;
+$success-shade-4  : rgba(46, 125, 50, 0.04)!important;
+
+// warning color
+$warning-main-color: #FC8800!important;
+$warning-dark-color: #DD6000!important;
+$warning-light-color: #FFF1DB!important;
+$warning-shade-4: rgba(237, 108, 2, 0.04);
+
+// gray scale
+$grey-scale-white: #FFFFFF!important;
+$grey-scale-50: #FAFAFA!important;
+$grey-scale-100: #F5F5F5!important;
+$grey-scale-200: #EEEEEE!important;
+$grey-scale-300: #E0E0E0!important;
+$grey-scale-400: #BDBDBD!important;
+$grey-scale-500: #9E9E9E!important;
+$grey-scale-600: #757575!important;
+$grey-scale-700: #616161!important;
+$grey-scale-800: #3B3B3B!important;
+$grey-scale-900: #212121!important;
+$grey-scale-black: #000000!important;
+
+
+/***************************************
+*                                 Button
+***************************************/
+$button-large-height: 56px!important;
+$button-medium-height: 40px!important;
+$button-small-height: 30px!important;
+$button-radius: 4px!important;
+
+/***************************************
+*                             Typography
+***************************************/
+
+// font size for desktop or tablet device
+$desktop-font-size-h1: 52px!important;
+$desktop-font-size-h2: 44px!important; 
+$desktop-font-size-h3: 36px!important; 
+$desktop-font-size-h4: 30px!important; 
+$desktop-font-size-h5: 24px!important; 
+$desktop-font-size-h6: 20px!important; 
+$desktop-font-size-subtitle1: 24px!important; 
+$desktop-font-size-subtitle2: 20px!important; 
+
+// font size for mobile device
+$mobile-font-size-h1: 34px!important;
+$mobile-font-size-h2: 31px!important; 
+$mobile-font-size-h3: 28px!important; 
+$mobile-font-size-h4: 24px!important; 
+$mobile-font-size-h5: 21px!important; 
+$mobile-font-size-h6: 17px!important; 
+$mobile-font-size-subtitle1: 21px!important; 
+$mobile-font-size-subtitle2: 17px!important; 
+
+// font size for paragraph and content
+$font-size-body1: 16px!important;
+$font-size-body2: 14px!important;
+$font-size-caption: 12px!important;
+$font-size-overline: 12px!important;
+$font-size-button-large: 16px!important;
+$font-size-button-medium: 14px!important;
+$font-size-button-small: 12px!important;
+$font-size-tooltip: 11px!important;
+
+// font weight
+$font-weigth-400: 400!important;
+$font-weigth-500: 500!important;
+$font-weigth-600: 600!important;
+$font-weigth-700: 700!important;
+
+

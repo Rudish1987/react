@@ -1,0 +1,106 @@
+.passengerDetails{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.download{
+    font-weight: 600!important;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #DC140A;
+}
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: #DC140A;
+    POSITION: absolute;
+    left: 68%;    
+    top: 6%;
+}
+.button-ar{
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: #DC140A;
+    POSITION: absolute;
+    right: 82%;    
+    top: 6%;
+}
+.style{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 800;
+    background-color: #ffffff;
+    box-shadow: 24;
+    padding:36px;
+}
+.cancelbutton{
+    padding-top: 30px;
+}
+.descriptionicon{
+    padding-top:25px;
+    width:66.33px !important;
+    height:77.67px !important;
+    color: #757575;
+}
+.dropzone{
+    width:719px;
+    padding-left:30px;
+    height:171px;
+    border: 2px dashed;
+    border-color:#9E9E9E;
+    background-color: #EEEEEE;
+    cursor: pointer;
+
+}
+.dropzone-content{
+    font-weight: 600 !important;
+    font-size:16px !important;
+    padding:6px;
+}
+
+.click{
+    font-weight:400 !important;
+    font-size:12px !important;
+
+}
+
+.uploaded{
+    font-weight: 600 !important;
+    font-size:16px !important ;
+    padding-top: 15px;
+    color: #616161;
+}
+.checkmark{
+    position: relative;
+    left: -26px;
+    color: #00B760;
+    top: 8px;
+}
+.checkmark-ar{
+    position: relative;
+    left: 62px;
+    color: #00B760;
+    top: 8px;
+}
+.instructionlist{
+    padding: 0px!important;
+    list-style-type: disc;
+    display: list-item!important;
+    font-family: Montserrat,sans-serif;
+    color: #212B36;
+}
+.excelsucesstext{
+    color: #DC140A;
+    padding-top: 15px;
+    font-weight: 600!important;
+    font-family: Montserrat,sans-serif!important;
+    text-align: center;
+}
